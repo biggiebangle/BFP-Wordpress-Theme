@@ -1,0 +1,392 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+@font-face {
+  font-family: 'GOTHAM-BOLD';
+  src: url('../fonts/GOTHAM-BOLD_0.otf');
+}
+
+@font-face {
+  font-family: 'GOTHAM-BOOKITALIC';
+  src: url('../fonts/GOTHAM-BOOKITALIC_0.otf');
+}
+
+@font-face {
+  font-family: 'GOTHAM-LIGHT';
+  src: url('../fonts/GOTHAM-LIGHT_0.otf');
+}
+
+body {
+  background-color:#fff;
+  color:#05374b;
+}
+
+a {
+	color:#05374b;
+}
+
+a:hover {
+	color: #9d9d9d;
+}
+
+h1, h2, h3, h5, h6 {
+	font-family: 'GOTHAM-BOLD', 'Arial', sans-serif;
+}
+
+h4 {
+	font-family: 'GOTHAM-LIGHT', 'Arial', sans-serif;
+	color:#ee3c23;
+}
+
+h1, h2 {
+	color:#fff;
+	text-transform:uppercase;
+	margin:0px;
+}
+
+h1 {
+	font-size:48px;
+	line-height:1;	
+}
+
+h2 {
+	font-size:21px;
+	letter-spacing: 3px;
+}
+
+h3 {
+	color:#05374b;
+	margin-bottom:20px;
+}
+
+h5 {
+	color:#fff;
+	text-transform:uppercase;
+}
+
+.hero-dec-space {
+	height:28px;
+}
+
+.hero-dec-space2 {
+	height:46px;
+}
+
+.dkred-bg {
+	background-color:#930;
+	border-color: #930;
+	color:#fff;
+}
+
+.ltred-bg {
+	background-color:#ee3c23;
+	color:#fff;
+}
+
+.blue-bg {
+	background-color:#05374b !important;
+	border-color: #05374b !important;
+}
+
+.campaign-header {
+	margin-bottom:20px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover {
+	color:#ee3c23;
+}
+
+.btn-primary {	
+	background-color:#ee3c23;
+	border-color:#ee3c23;
+}
+
+
+.action-link:hover .image-hover {
+	 box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;  	
+	display:block;
+	border: 10px solid #05374b;
+	left:10px;
+	right:10px;
+}
+
+
+.blue-bg .navbar-toggle:hover, .blue-bg .navbar-toggle:focus {
+	background-color: #9d9d9d;
+   
+}
+.blue-bg .navbar-toggle {
+	border-color: #9d9d9d;
+	
+  
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+	background-color:transparent;
+}
+
+#donate-nav-button {
+	margin-top:10px;
+	}
+
+ 
+/* Campaign
+------------------------- */
+
+.breadcrumb {
+	background-color:#05374b;	
+}
+
+.breadcrumb a {
+	color:#fff;
+}
+
+.breadcrumb > .active {
+    color: #9d9d9d;
+}
+
+.tab-content {
+	background-color:#fff;
+}
+
+.form-content {
+	margin-top:20px;
+	
+}
+
+.form-content .tab-pane {
+	min-width:300px; 
+	max-width:100%; 
+	background-color:#fff;
+}
+
+.form-content .tab-pane iframe {
+	min-width:300px; 
+	width:550px; 
+	max-width:100%; 
+	background-color:#fff;
+	box-sizing:border-box; 
+	height:1900px;
+}
+
+.form-content .victory {
+	padding-top:50px;
+	margin-right: auto;
+}
+
+.support {
+	background-color:#ee3c23;
+	margin-bottom:30px;	
+}
+
+.support h2 {
+	margin:50px 0px;
+}
+
+.desktop-seals {
+	/*display:none;*/
+	margin-bottom:0px;
+}
+
+.mobile-seals, .campaign-body {	
+	margin-bottom:30px;
+}
+
+.alert-warning a {
+	color:#8a6d3b;
+}
+
+.campaigns {
+	text-transform:uppercase;
+	margin-bottom:20px;	
+}
+
+.campaigns .action-title {
+	margin:60px 10px;
+}
+
+.action {
+	padding:10px 20px;	
+	text-shadow: 3px 3px 1px rgba(0, 0, 0, .5);
+	color:#fff;
+}
+
+.action a:hover {
+	color:#fff;
+}
+
+.campaigns h5 {
+	font-size:26px;
+}
+
+.call-rep { 
+	background-color:#ee3c23;
+}
+
+.dnld-fact {
+	background-image:url('../img/petition/fact_sheet.jpg');
+}
+
+.dnld-policy {
+	background-image:url('../img/petition/policy.jpg');	
+}
+
+.dnld-poster{
+	background-image:url('../img/petition/poster.gif');
+	
+	
+}
+.section {
+	padding:40px 20px;
+}
+.section h2{
+	padding:0 0 20px 0;
+}
+
+.section li {
+	padding:5px 10px;
+}
+
+.section ul {
+	padding-bottom:20px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 420px) {
+h1 {
+	font-size:60px;
+	line-height:1;
+	
+}
+
+h2 {
+	font-size:25px;	
+}
+
+.hero-dec-space {
+	height:36px;
+}
+
+.hero-dec-space2 {
+	height:55px;
+}
+
+.col-xs-pull-1 {
+	right:auto;
+}
+
+
+}
+@media (min-width: 768px) {
+
+	
+.section {
+	padding:60px 20px;
+}
+	
+.tshirt {
+	margin-top:10px;
+}
+	
+a {
+	color:#fff;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-nav > .open > a,  .navbar-nav > .open > a:hover, .navbar-nav > .open > a:focus {   
+    background-color: #05374b;
+}
+
+.navbar-right > li {
+    padding: 20px 2px 0px 0px;
+}
+
+#donate-nav-button {
+	margin-top:0px;
+}
+	
+	
+/*breadcrumb*/
+	
+.breadcrumb > .active {
+    color: #fff;
+}
+
+.
+ li a {
+	 	color: #9d9d9d;
+}
+
+.desktop-seals {
+	display:block;
+
+}
+.mobile-seals {
+	display:none;
+	margin-bottom:0px;
+}
+
+.victory {
+	padding: 8px 12px;
+	margin-right:2px;
+	border: 1px solid transparent;
+}
+
+.desktop-seals .nav > li > a > img {
+    max-width: 100%;
+}
+
+.tab-content {
+	margin-bottom:30px;
+}
+
+.form-content {
+	margin-top:-260px;
+	overflow:visible;
+}
+
+
+
+}
+@media (min-width: 992px) {
+.form-content {
+	margin-top:-280px;
+	overflow:visible;
+}
+.form-content .tab-pane iframe {
+	
+	height:1500px;
+}
+	
+}
+
+@media (min-width: 1200px) {
+h1 {
+	font-size:90px;
+	line-height:1;
+}
+
+h2 {
+	font-size:42px;
+	letter-spacing: 3px;
+	
+}
+
+.hero-dec-space {
+	height:60px;
+}
+
+.hero-dec-space2 {
+	height:82px;
+}
+
+.form-content {
+	margin-top:-360px;
+	overflow:visible;
+}
+}

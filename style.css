@@ -1,0 +1,20 @@
+/*
+Theme Name: Beagle Freedom Project
+Theme URI: http://wordpress.org/
+Description:
+Author: Catherine Cavanagh
+Author URI: http://biggiebangle.com/
+Version: 1.0
+Tags: responsive, bootstrap
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+/* Bootstrap core CSS */
+@import url('/wp-content/themes/bfp/bootstrap/css/bootstrap.css'); 
+/* IE10 viewport hack for Surface/desktop Windows 8 bug*/
+@import url('/wp-content/themes/bfp/bootstrap/css/ie10-viewport-bug-workaround.css'); 
+/* Custom styles for this template*/
+@import url('/wp-content/themes/bfp/bfp.css'); 
+

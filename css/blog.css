@@ -1,0 +1,191 @@
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+  .container {
+  width: 970px;
+  }
+}
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+  visibility:hidden;
+ 
+}
+.pager > li > a {
+ /* width: 140px;*/
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+ 
+ .blog-post-title {
+  margin-top: 5px;
+  padding:20px;
+  font-size: 22px;
+  text-align:right;
+  position:absolute;
+  bottom:40px;
+  right:0px;
+}
+
+.blog-post {
+  margin-bottom: 60px;
+}
+
+.blog-post-meta {
+  margin-top:20px;
+  margin-bottom: 20px;
+  color: #999;
+}
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  border-radius: 4px;
+
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+#right_sidebar {
+    float: right;
+    width: 310px;
+    margin-bottom: 10px;
+}
+
+.right_sidebar_header {
+	font-family: 'KlinicSlabMedium', 'Georgia', serif;
+    padding: 5px 0 20px 4px;
+    background-image: url("/wp-content/themes/bfp/img/sidebarHeaderBG.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #FFF;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 18px;
+	margin-right:0px
+}
+
+.right_sidebar_campaigns {
+    padding: 4px;
+    margin: -15px 45px 10px 7px;
+    background-color: #FFF;
+    border: 2px solid;
+    font-weight: 300;
+    line-height: 140%;
+    font-size: 12px;
+}
+
+.right_sidebar_campaigns a {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    display: block;
+}
+
+.right_sidebar_links {
+    padding: 4px;
+     margin: -15px 45px 10px 7px;
+    background-color: #FFF;
+    border: 2px solid;
+    font-weight: 300;
+    line-height: 140%;
+    font-size: 12px;
+}
+
+.clear {
+	clear:both;
+}
+
+@media (min-width: 992px) {
+	.right_sidebar_header {
+		margin-right:-45px;
+	}
+	.right_sidebar_campaigns, .right_sidebar_links {
+		margin: -15px 0 10px 7px;
+	}
+	
+	.blog-post-title {
+  		font-size: 40px;
+	}
+	
+}
+
+.yith-infs-loader {
+	text-align: center;
+	margin: 10px 0 30px;
+}
+.yith-infs-loader img {
+	max-width: 100%;
+	display: inline-block;
+}
+
+/* Fade In */
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.yith-infs-animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}

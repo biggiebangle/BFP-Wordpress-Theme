@@ -1,0 +1,285 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Entire shop */
+body {
+	padding-top: 0px !important; /* on bfp.css */
+}
+
+/*c*/
+.inverse-text:hover, .inverse-text {
+    color: #fff !important;
+}
+
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-categoryPath a:link, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-categoryPath a:visited, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-categoryPath a:active, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-categoryPath a:hover {
+    color: #FE9E23 !important;
+}
+
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-auth a:link, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-auth a:active, html#ecwid_html body#ecwid_body div.ecwid-productBrowser a:visited {
+   color: #3399cc !important;
+}
+html#ecwid_html body#ecwid_body .ecwid a {
+	font-family: 'KlinicSlabBold', 'Georgia', serif !important;
+}
+/*c*/
+
+html#ecwid_html body#ecwid_body .ecwid {
+	color: #3399cc !important;
+	font-family: 'KlinicSlabBold', 'Georgia', serif !important;
+	
+}
+#myShopCarousel, #myShopHighlights {
+  display:block !important;
+}
+
+/* Product Browser  Home page*/
+
+div.ecwid-productBrowser-CategoryPage-0 table.ecwid-productBrowser-subcategories-mainTable {
+  display: none !important;
+}
+
+div.ecwid-productBrowser-productsGrid{
+	
+}
+
+
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser {
+	/*c*/margin-top:20px !important;
+	background-color: #f1f1f1;
+	border-radius: 0px !important;
+	border: 0px solid #cbc4c4 !important;
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1) !important;
+}
+
+ div#myShopCarousel, div#myShopHighlights {
+	/*C -this could fuck it all up  */position:relative !important;
+}
+
+
+.carousel,  .carousel-inner {
+    /*c*/position: relative !important;
+}
+
+carousel-indicators {
+
+   /*c*/ list-style: none !important;
+}
+
+.carousel-control {
+   /*c*/ position: absolute !important;
+
+   /*c*/ left: 0 !important;
+ 
+   /*c*/ font-size: 20px !important;
+  /*c*/  color: #fff !important;
+  
+   
+}
+
+/* shop highlights */
+/*c*/
+#my-store-2100043 .shop-highlights {
+	padding-top:25px !important;
+}
+
+#my-store-2100043 .row {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, #my-store-2100043 .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+#my-store-2100043 .image-hover {
+
+    z-index: 10 !important;
+    position: absolute !important;
+
+}
+
+#my-store-2100043 .img-responsive, #my-store-2100043 .thumbnail > img, #my-store-2100043 .thumbnail a > img, #my-store-2100043 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+ 
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+#my-store-2100043 .highlight-text {
+    background: rgb(51, 153, 204);
+    background: rgba(51, 153, 204, 0.8);
+    position: absolute !important;
+    margin-left: 15px !important;
+    padding: 15px !important;
+}
+/*c*/
+
+/*hold space open until store loads?? */
+#my-store-2100043 {
+	
+}
+
+/*  categories */
+
+#my-categories-2100043 {
+		display:block;
+	}
+	#my-vCategories-2100043 {
+		display:none;
+	}
+
+html#ecwid_html body#ecwid_body span.ecwid-categories-category {
+    font-family: 'KlinicSlabBold', 'Georgia', serif !important;
+	font-size:20px !important;
+	color:#222 !important;
+	    
+}
+
+html#ecwid_html body#ecwid_body div.ecwid-categoriesMenuBar td.gwt-MenuItem-selected span.ecwid-categories-category, html#ecwid_html body#ecwid_body div.ecwid-categoriesMenuBar td.gwt-MenuItem-current span.ecwid-categories-category, html#ecwid_html body#ecwid_body td.ecwid-categories-vertical-table-cell-selected span.ecwid-categories-category, html#ecwid_html body#ecwid_body table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected span.ecwid-categories-category {
+    color: #3399cc !important;
+}
+
+html#ecwid_html body#ecwid_body table.ecwid-categoriesTabBar div.gwt-TabBarFirst, html#ecwid_html body#ecwid_body table.ecwid-categoriesTabBar div.gwt-TabBarRest, html#ecwid_html body#ecwid_body table.ecwid-categoriesTabBar table.gwt-TabBarItem, html#ecwid_html body#ecwid_body div.ecwid-categories-horizontal-menuBarContainer, html#ecwid_html body#ecwid_body td.ecwid-categories-vertical-table-cell, html#ecwid_html body#ecwid_body div.ecwid-categories-MenuBarPopup div.menuSeparatorInner {
+    border: none;
+    border-bottom: 0px !important;
+    
+}
+
+@media (min-width: 768px) {
+	#my-categories-2100043 {
+		display:none;
+	}
+	#my-vCategories-2100043 {
+		display:block;
+	}
+	
+}
+
+
+
+/* current buttons */
+
+.carousel-caption .btn-lg {
+    color: #222;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3399cc;
+    border-color: #204d74;
+}
+
+/* buttons on categories, individual items, general store */
+
+/*individual button */
+html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-up, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-down, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-down-hovering {
+    /*background-image: url("/static/v1/icons/add_to_bag.png");*/
+	background-image:none !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-up, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-ie6-up, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-ie6-up-hovering {
+    /*background: transparent url("/static/v1/icons/add_to_bag.png") no-repeat top center;*/
+	background-image:none !important;
+}
+
+.ecwid .ecwid-btn--addToBag {
+ background: #3399cc;
+}
+.ecwid .ecwid-btn--addToBag:hover {
+ background: #fff !important;
+ color:#3399cc !important;
+}
+.ecwid .ecwid-btn--addToBag:focus,
+.ecwid .ecwid-btn--addToBag:focus:hover {
+ border-color: #3399cc !important;
+}
+.ecwid .ecwid-btn--addToBag:active,
+.ecwid .ecwid-btn--addToBag:focus:active {
+ background: #286090 !important;
+ color: #222 !important;
+}
+
+/*carousel */
+.carousel {
+    height: auto;
+}
+
+.carousel .item {
+     height: auto; 
+}
+
+.carousel-caption .btn-lg {
+   
+    font-size: 10px;
+}
+
+.carousel-caption h1,  .description {
+   	display:none;
+}
+
+.carousel-caption {
+
+     text-align: center !important; 
+     left: 15% !important; 
+
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+	
+.carousel {
+    height: 400px;
+}
+.carousel .item {
+     height: 400px;
+}
+.carousel-caption {
+
+     left: 20% !important; 
+
+}
+
+.carousel-caption .btn-lg {
+   
+    font-size: 14px;
+}
+.carousel-caption h1,  .description {
+   	display:block;
+}
+.carousel-caption p {
+ color:#fff !important;
+text-shadow: 0 1px 2px rgba(0, 0, 0, .6) !important;
+}
+}
+
+/*highlight shops area */
+
+.highlight-text {
+    width: auto !important; 
+ 
+}
+.shop-highlights {
+	font-family: 'KlinicSlabBold', 'Georgia', serif !important;
+}
+
+/*.highlight:hover img {
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    transform: scale(1.01);
+}
+.highlight img {
+    -webkit-transition: -webkit-transform 0.5s;
+    -moz-transition: -moz-transform 0.5s;
+    -o-transition: -o-transform 0.5s;
+    transition: transform 0.5s;
+	
+}
+
+.overflow-img {
+    overflow: hidden !important;
+}*/
